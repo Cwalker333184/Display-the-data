@@ -1,1 +1,49 @@
 // Style me!!!
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf5e6;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  #loadBtn {
+    background-color: #e07a5f;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #loadBtn:hover {
+    background-color: #d45d48;
+  }
+  
+  #messageText {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #333;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff3cd;
+    border: 1px solid #ffeeba;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .fade-in {
+    animation: fadeIn 0.8s ease-in;
+  }
+  
+  
